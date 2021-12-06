@@ -1,0 +1,15 @@
+target extended-remote localhost:2331
+
+define reload
+    monitor reset
+    load
+    monitor reset
+    monitor halt
+
+    monitor semihosting enable
+    monitor semihosting breakOnError
+    monitor semihosting IOclient 3
+end
+document reload
+Reset, flash, reset
+end

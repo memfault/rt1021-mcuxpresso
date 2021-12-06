@@ -1,0 +1,10 @@
+/board/
+/component/
+/device/
+/drivers/
+/freertos/
+/source/
+/startup/
+/third-party/
+/utilities/
+/xip/
