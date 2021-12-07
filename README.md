@@ -4,12 +4,23 @@ MCUXpresso project showing a basic memfault SDK integration.
 
 ## Usage
 
-1. Install MCUXpresso
+### Prerequisites
+
+1. Install MCUXpresso if not already installed
 2. Inside MCUXpresso, install the `SDK_2.x_EVK-MIMXRT1020` if you haven't
    already (filter by rt1020 to find it in the SDK installation window)
-3. Import this project by going to `File->Import->General->Existing Projects
-   Into Workspace`
-4. Build should now work.
+
+### Download and build
+
+1. Clone this repo with submodules:
+
+   ```bash
+   ❯ git clone --recurse-submodules  https://github.com/memfault/rt1021-mcuxpresso.git
+   ```
+
+2. Import this project inside MCUXpresso by going to
+   `File->Import->General->Existing Projects Into Workspace`
+3. Build should now work.
 
 ## Example application
 
